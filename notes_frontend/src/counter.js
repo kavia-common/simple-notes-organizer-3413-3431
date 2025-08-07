@@ -1,9 +1,2 @@
-export function setupCounter(element) {
-  let counter = 0
-  const setCounter = (count) => {
-    counter = count
-    element.innerHTML = `count is ${counter}`
-  }
-  element.addEventListener('click', () => setCounter(counter + 1))
-  setCounter(0)
-}
+/* This file intentionally left blank as the notes app does not use the counter demo.
+  Any app code is present in main.js */

@@ -17,6 +17,17 @@ export default [
       ".idea/",
       "*.config.mjs",
     ],
+    languageOptions: {
+      globals: {
+        window: "readonly",
+        document: "readonly",
+        localStorage: "readonly",
+        console: "readonly",
+        MutationObserver: "readonly",
+        fetch: "readonly",
+        // Add other browser globals if needed...
+      }
+    },
   },
   {
     files: ["**/*.ts", "**/*.tsx"],
